@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Orders for Boxes</title>
+        <style>
+            div{
+                border: 2px solid black;
+                margin-left: 20%;
+                width: 50%;
+            }
+            h1{
+                text-align: center;
+                color: rgb(255, 149, 0);
+            }
+            form{
+                
+                padding-left: 10% ;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form>
+                <h1>Land of Boxes</h1>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Telephone Number:</td>
+                        <td><input type="tel" name=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" name=""/></td>
+                    </tr>
+                </table>
+                <table border="2px" style="border-collapse: collapse;">
+                    <tr>
+                        <th>Product No.</th>
+                        <th>Product Name</th>
+                        <th>Quntity</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Econo Box</td>
+                        <td><input type="number" name=""/></td>
+                        <td>R5</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Standard Box</td>
+                        <td><input type="number" name=""/></td>
+                        <td>R10</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Premium Box</td>
+                        <td><input type="number" name=""/></td>
+                        <td>R15</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Deluxe Box</td>
+                        <td><input type="number" name=""/></td>
+                        <td>R20</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Super Deluxe Box</td>
+                        <td><input type="number" name=""/></td>
+                        <td>R30</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th>Credit Card Details</th>
+                    </tr>
+                    <tr>
+                        <td>Card Type</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="type"/>Mastercard</td>
+                        <td>Card Number: <input type="number" name=""/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="type"/>Visa</td>
+                        <td>Expiry Date: <input type="text" name=""/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="type"/>Rupay</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="type"/>American Express</td>
+                    </tr>
+                    <tr>
+                        <td>Billing Address:</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button>Send Order</button></td>
+                        <td><button>Clear</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
